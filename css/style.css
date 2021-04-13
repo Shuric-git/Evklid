@@ -29,6 +29,15 @@ body {
 	width: 1920px;
 }
 
+.button {
+	width: 280px;
+	height: 80px;
+	border: 0;
+	padding: 19px 37px;
+	background-color: #ff9900;
+	color: #fff;
+}
+
 /*=====HEADER SECTION=====*/
 
 .header {
@@ -73,5 +82,37 @@ body {
 /*=====PROJECT SECTION=====*/
 
 .project {
-	background-image: url();
+	height: 620px;
+	margin: 0 75px;
+	padding-top: 103px;
+	padding-left: 78px;
+	background-image: url(../img/project_bg.jpg);
+	background-repeat: no-repeat;
+}
+
+.project-inner {
+	width: 840px;
+}
+
+.project__title {
+	color: #fff;
+	font-size: 70px;
+	line-height: 86px;
+	font-weight: 800;
+	margin-bottom: 32px;
+}
+
+.project__description {
+	color: #fff;
+	font-size: 23px;
+	line-height: 28px;
+	font-weight: 700;
+	width: 700px;
+	padding-bottom: 97px;
+}
+
+.project__button {
+	font-size: 23px;
+	line-height: 28px;
+	font-weight: 700;
 }
