@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'fontawesome-webfont';
+	src: url('../fonts/fontawesome-webfont.woff2') format('woff2'),
+		url('../fonts/fontawesome-webfont.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body {
+	font-family: montserrat;
+}
+
+.container {
+	width: 1920px;
+	margin: 0 auto;
+	background-color: #e5e5e5;
+}
+
+.title {
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 400;
+}
+
+.button {
+	width: 280px;
+	height: 80px;
+	border: 0;
+	padding: 19px 37px;
+	background-color: #ff9900;
+	color: #fff;
+}
+
+/*=====HEADER SECTION=====*/
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	background-color: #fff;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.header-nav {
+	display: flex;
+}
+
+.header-nav__list {
+	display: flex;
+}
+
+.header-nav__list-item {
+	margin-left: 85px;
+	list-style: none;
+}
+
+.list-item__link {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+}
+
+.search {
+	color: #333;
+	width: 23px;
+	height: 23px;
+	background-image: url(../img/logo__header.png);
+}
+
+/*=====PROJECT SECTION=====*/
+
+.project {
+	height: 620px;
+	margin: 0 75px;
+	padding-top: 103px;
+	padding-left: 78px;
+	background-image: url(../img/project_bg.jpg);
+	background-repeat: no-repeat;
+	margin-bottom: 100px;
+}
+
+.project-inner {
+	width: 840px;
+}
+
+.project__title {
+	color: #fff;
+	font-size: 70px;
+	line-height: 86px;
+	font-weight: 800;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.project__description {
+	color: #fff;
+	font-size: 23px;
+	line-height: 28px;
+	font-weight: 700;
+	width: 755px;
+	padding-bottom: 97px;
+}
+
+.project__button {
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 700;
+}
+
+/*=====ABOUT SECTION=====*/
+
+.about__title {
+	margin-bottom: 10px;
+}
+
+.about__description {
+	width: 1235px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	color: 333px;
+}
+
+.about__detailed-wrapper {
+	background-image: url(../img/about__bg.jpg);
+}
