@@ -131,6 +131,11 @@ body {
 
 /*=====ABOUT SECTION=====*/
 
+.about {
+	width: 1770px;
+	margin: 0 auto;
+}
+
 .about__title {
 	margin-bottom: 10px;
 }
@@ -141,8 +146,43 @@ body {
 	font-size: 16px;
 	line-height: 32px;
 	color: 333px;
+	margin-bottom: 44px;
 }
 
 .about__detailed-wrapper {
+	width: 870px;
+	height: 622px;
+	position: relative;
 	background-image: url(../img/about__bg.jpg);
+}
+
+.detailed {
+	width: 870px;
+	display: flex;
+	justify-content: space-between;
+	padding: 38px 54px;
+	height: 176px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+    bottom: 0px;
+}
+
+.detailed__description {
+	color: #fff;
+	width: 497px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.detailed__button {
+	width: 175px;
+	height: 60px;
+	margin-top: 20px;
+    margin-right: 20px;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 19px 38px;
+	border: 3px solid #ff9900;
+	color: #fff;
 }
