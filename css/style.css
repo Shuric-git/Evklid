@@ -33,9 +33,15 @@ body {
 	background-color: #ffffff;
 }
 
+.section-container {
+	width: 1770px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
 .title {
 	font-size: 48px;
-	line-height: 58px;
+	line-height: 58.51px;
 	font-weight: 400;
 }
 
@@ -132,9 +138,7 @@ body {
 /*=====ABOUT SECTION=====*/
 
 .about {
-	width: 1770px;
-	margin: 0 auto;
-	margin-bottom: 100px;
+	
 }
 
 .about__title {
@@ -227,12 +231,48 @@ body {
 /*=====HOW WE WORK SECTION=====*/
 
 .work {
-
+	
 }
 
-.work__desctiption-wrapper {
+.we-work__title {
+	margin-bottom: 38px;
+}
+
+.we-work__nav {
+	margin-bottom: 49px;
+}
+
+.we-work__list {
+	display: flex;
+}
+
+.we-work__list-item {
+	font-size: 18px;
+	line-height: 21.94px;
+	font-weight: 400;
+}
+
+.we-work__list-item:not(:last-child) {
+	margin-right: 89px;
+}
+
+.work__description-wrapper {
 	display: flex;
 	justify-content: space-between;
+}
+
+.work-description__title {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+}
+
+.work-description {
+	width: 758px;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 400;
+	margin-bottom: 101px;
 }
 
 .button-wrapper {
@@ -240,9 +280,29 @@ body {
 }
 
 .how-we-work__button {
+	width: 175px;
+	height: 60px;
+	padding: 19px 38px;
+	font-size: 16px;
+	line-height: 19.5px;
+	font-weight: 600;
 	color: #fff;
+	margin-right: 20px;
 }
 
 .pact__button {
+	width: 150px;
+	height: 56px;
+	padding: 17px 36px;
+	font-size: 16px;
+	line-height: 19.5px;
+	font-weight: 400;
+	border: 1px solid #000;
+	background-color: rgba(0, 0, 0, 0.0);
+}
 
+/*=====FAQ SECTION=====*/
+
+.faq-title {
+	margin-bottom: 27px;
 }
