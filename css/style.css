@@ -30,7 +30,7 @@ body {
 .container {
 	width: 1920px;
 	margin: 0 auto;
-	background-color: #e5e5e5;
+	background-color: #ffffff;
 }
 
 .title {
@@ -134,6 +134,7 @@ body {
 .about {
 	width: 1770px;
 	margin: 0 auto;
+	margin-bottom: 100px;
 }
 
 .about__title {
@@ -145,8 +146,12 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 32px;
-	color: 333px;
+	color: #333333;
 	margin-bottom: 44px;
+}
+
+.about__inner-wrapper {
+	display: flex;
 }
 
 .about__detailed-wrapper {
@@ -154,6 +159,7 @@ body {
 	height: 622px;
 	position: relative;
 	background-image: url(../img/about__bg.jpg);
+	margin-right: 30px;
 }
 
 .detailed {
@@ -170,7 +176,7 @@ body {
 .detailed__description {
 	color: #fff;
 	width: 497px;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 16px;
 	line-height: 32px;
 }
@@ -181,8 +187,62 @@ body {
 	margin-top: 20px;
     margin-right: 20px;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 600;
 	padding: 19px 38px;
 	border: 3px solid #ff9900;
 	color: #fff;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__card {
+	display: flex;
+	width: 870px;
+	height: 295px;
+	border: 1px solid #CACACA;
+	padding: 63px 67px 118px 72px;
+}
+
+.card-img {
+	margin-right: 59px;
+}
+
+.card-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.card-descripton {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	width: 452px;
+}
+
+/*=====HOW WE WORK SECTION=====*/
+
+.work {
+
+}
+
+.work__desctiption-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.button-wrapper {
+	display: flex;
+}
+
+.how-we-work__button {
+	color: #fff;
+}
+
+.pact__button {
+
 }
