@@ -306,3 +306,26 @@ body {
 .faq-title {
 	margin-bottom: 27px;
 }
+
+.faq__block {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.faq__span {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+}
+
+.faq__button {
+	width: 50px;
+	height: 50px;
+	background-color: #ececec;
+	border-radius: 25px;
+	border: 0px;
+	font-size: 72px;
+    line-height: 53px;
+}
