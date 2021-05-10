@@ -121,7 +121,7 @@ body {
 }
 
 .project-inner {
-	width: 840px;
+	width: 719px;
 }
 
 .project__title {
@@ -312,6 +312,12 @@ body {
 	background-color: rgba(0, 0, 0, 0.0);
 }
 
+.work__img {
+	width: 870px;
+	height: 465px;
+	background: url(../img/how-we-work_img.jpg);
+}
+
 /*=====FAQ SECTION=====*/
 
 .faq-title {
@@ -440,9 +446,9 @@ body {
 
 /*================================ 1024PX ================================*/
 
-                         /*========HEADER========*/
-
 @media (max-width: 1024px) {
+
+                         /*========HEADER========*/
 
 .container {
 	width: 1024px;
@@ -484,6 +490,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+.project-inner {
+	width: 719px;
+}
+
 .project__title {
 	font-size: 60px;
 	line-height: 73px;
@@ -495,7 +505,7 @@ body {
 	font-size: 20px;
 	line-height: 24px;
 	width: 658px;
-	margin-bottom: 135px;
+	margin-bottom: 110px;
 }
 
                          /*========ABOUT========*/
@@ -548,6 +558,12 @@ body {
 	margin-right: 30px;
 }
 
+.work__img {
+	width: 437px;
+	height: 689px;
+	background: url(../img/how-we-work_img1024.jpg);
+}
+
                          /*========FAQ========*/
 
 .faq__span {
@@ -587,19 +603,391 @@ body {
 
 /*================================ 768PX ================================*/
 
+@media (max-width: 768px) {
+
+.container {
+	width: 768px;
+}
+
+.section-container {
+	width: 668px;
+}
+
                          /*========HEADER========*/
+
+.header {
+	height: 69px;
+	padding: 10px 49px 11px 48px;
+}
+
+.logo__header {
+	width: 150px;
+	height: 47.35px;
+}
 
 
                          /*========PROJECT========*/
 
+.project {
+	width: 768px;
+	height: 768px;
+	margin-left: 0;
+    margin-right: 0;
+	padding-top: 191px;
+	padding-left: 49px;
+	background: url(../img/project_bg768.jpg);
+}
+
 
                          /*========ABOUT========*/
+
+.about__description {
+	width: 668px;
+}
+
+.about__detailed-wrapper {
+	width: 668px;
+	height: 650px;
+	position: relative;
+	background-image: url(../img/about__bg768.jpg);
+	margin-bottom: 40px;
+
+}
+
+.detailed {
+	width: 668px;
+	height: 173px;
+	padding: 28px 30px 26px 29px;
+}
+
+.detailed__description {
+	width: 401px;
+}
+
+.about__card {
+	width: 668px;
+	height: 235px;
+	padding: 37px 38px 42px 31px;
+}
+
+.card-img {
+	width: 20%;
+    height: 57%;
+    margin-right: 30.5px;
+    margin-top: 32px;
+}
 
 
                          /*========HOW WE WORK========*/
 
+.we-work__list-item:not(:last-child) {
+	margin-right: 154px;
+}
+
+.work__description-wrapper {
+	display: block;
+}
+
+.work__img {
+	display: none;
+}
+
+.work__img-top {
+	width: 668px;
+	height: 284px;
+	margin-bottom: 38px;
+	background: url(../img/how-we-work_img768.jpg);
+}
+
+.work-description {
+	width: 668px;
+}
 
                          /*========FAQ========*/
 
+.faq-title {
+	width: 695px;
+}
+
+.faq__span {
+	width: 570px;
+}
 
                          /*========FOOTER========*/
+
+.footer {
+	flex-direction: column;
+	height: 816px;
+	padding: 58px 184px 59px 50px;
+}
+
+.footer__left {
+	order: 1;
+}
+
+.footer__middle {
+	margin-bottom: 58px;
+}
+
+.footer__nav {
+	display: none;
+}
+
+}
+
+/*================================ 320PX ================================*/
+
+@media (max-width: 320px) {
+
+.container {
+	width: 320px;
+}
+
+.section-container {
+	width: 290px;
+	margin-bottom: 39px;
+}
+
+.title {
+	font-size: 24px;
+	line-height: 29.26px;
+	margin-bottom: 10px;
+}
+
+                         /*========HEADER========*/
+
+.header {
+	width: 320px;
+	height: 45px;
+	padding: 7px 15px;
+	position: absolute;
+	top: 0;
+}
+
+.logo__header {
+	width: 97px;
+	height: 31px;
+}
+
+.search {
+	display: none;
+}
+
+.burger {
+	order: 1;
+}
+
+                         /*========PROJECT========*/
+
+.project {
+	width: 290px;
+	height: 307px;
+	margin-left: 15px;
+    margin-right: 15px;
+	padding-top: 77px;
+	padding-left: 22px;
+	background: url(../img/project_bg320.jpg);
+}
+
+.project-inner {
+	width: 250px;
+	text-align: center;
+}
+
+.project__title {
+	font-size: 20px;
+	line-height: 24.38px;
+	margin-bottom: 6px;
+}
+
+.project__description {
+	width: 243px;
+	font-size: 12px;
+	line-height: 14.63px;
+	font-weight: 500;
+	margin-bottom: 34px;
+}
+
+.project__button {
+	width: 162px;
+	height: 40px;
+	font-size: 12px;
+	line-height: 14.63px;
+	padding: 11px 14px 14px 15px;
+}
+
+                         /*========ABOUT========*/
+
+.about {
+	margin-bottom: 60px;
+}
+
+.about__description {
+	width: 290px;
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+.about__detailed-wrapper {
+	width: 290px;
+	height: 400px;
+	background-image: url(../img/about__bg320.jpg);
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+
+}
+
+.detailed {
+	position: absolute;
+	display: block;
+	width: 290px;
+	padding: 0px;
+	background: rgba(0, 0, 0, 0);
+}
+
+.detailed__description {
+	width: 290px;
+	color: #333333;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 28px;
+	margin-bottom: 8px;
+}
+
+.detailed__button {
+	width: 162px;
+	height: 40px;
+	font-size: 12px;
+	line-height: 14.63px;
+	color: #ff9900;
+	text-align: center;
+	padding-top: 11px;
+	border: 2px solid #ff9900;
+}
+
+.about__card {
+	display: block;
+	width: 290px;
+	height: 290px;
+	border: 0px solid #CACACA;
+	padding: 0px;
+}
+
+.about__card:first-child {
+	margin-bottom: -25px;
+}
+
+.card-img {
+	width: 64px;
+	height: 49px;
+	margin-right: 0px;
+	margin-bottom: 13px;
+}
+
+.card-title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21.94px;
+}
+
+.card-descripton {
+	width: 290px;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+                         /*========HOW WE WORK========*/
+
+.we-work__title {
+	margin-bottom: 29px;
+}
+
+.we-work__list-item:not(:last-child) {
+	margin-right: 44px;
+}
+
+.work__img-top {
+	width: 290px;
+	height: 160px;
+	margin-bottom: 7px;
+	background: url(../img/how-we-work_img320.jpg);
+}
+
+.work-description__title {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.work-description {
+	width: 290px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.how-we-work__button {
+	width: 162px;
+	height: 40px;
+	padding: 11px 14px 14px 15px;
+	font-size: 12px;
+	line-height: 14.63px;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.pact__button {
+	width: 118px;
+	height: 40px;
+	padding: 11px 29px 14px 30px;
+	font-size: 12px;
+	line-height: 14.63px;
+}
+
+                         /*========FAQ========*/
+
+.faq-title {
+	width: 290px;
+	font-size: 24px;
+	line-height: 29.26px;
+}
+
+.faq__span {
+	width: 227px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.faq__button {
+    width: 30px;
+    height: 30px;
+    font-size: 38px;
+    line-height: 31px;
+}
+
+                         /*========FOOTER========*/
+
+.footer {
+	height: 683px;
+	padding: 39px 15px 25px;
+}
+
+.footer__middle {
+	width: 290px;
+	margin-bottom: 23px;
+	border-bottom: 1px solid #595959;
+}
+
+.footer_input {
+	width: 290px;
+}
+
+.footer__button {
+	width: 180px;
+	height: 40px;
+	margin-bottom: 11px;
+}
+
+}
